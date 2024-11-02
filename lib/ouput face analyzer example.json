@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Cheeks Bones",
+        "outputName": "StatefulPartitionedCall_1:0",
+        "labels": [
+            "High Cheeks",
+            "Low Cheeks",
+            "Round Cheeks"
+        ],
+        "outputLabel": "High Cheeks"
+    },
+    {
+        "name": "Eye Angle",
+        "outputName": "StatefulPartitionedCall_1:1",
+        "labels": [
+            "Downturned",
+            "Neutral",
+            "Upturned"
+        ],
+        "outputLabel": "Downturned"
+    },
+    {
+        "name": "Eye Distance",
+        "outputName": "StatefulPartitionedCall_1:2",
+        "labels": [
+            "Average-Set",
+            "Close-set",
+            "Wide-Set"
+        ],
+        "outputLabel": "Average-Set"
+    },
+    {
+        "name": "Eye Shape",
+        "outputName": "StatefulPartitionedCall_1:3",
+        "labels": [
+            "Almond",
+            "Downturned",
+            "Monolid",
+            "Round",
+            "Upturned",
+            "Hooded"
+        ],
+        "outputLabel": "Almond"
+    },
+    {
+        "name": "Eye Size",
+        "outputName": "StatefulPartitionedCall_1:4",
+        "labels": [
+            "Large",
+            "Medium",
+            "Small"
+        ],
+        "outputLabel": "Large"
+    },
+    {
+        "name": "Eyebrow Distance",
+        "outputName": "StatefulPartitionedCall_1:5",
+        "labels": [
+            "Close",
+            "Proportioned",
+            "Wide"
+        ],
+        "outputLabel": "Close"
+    },
+    {
+        "name": "Eye Lid",
+        "outputName": "StatefulPartitionedCall_1:6",
+        "labels": [
+            "Double-lids",
+            "Monolids"
+        ],
+        "outputLabel": "Double-lids"
+    },
+    {
+        "name": "Lip",
+        "outputName": "StatefulPartitionedCall_1:7",
+        "labels": [
+            "Full-lips",
+            "Heart-lips",
+            "Heavy-lower-lips",
+            "Heavy-upper-lips",
+            "Round-lips",
+            "Thin-lips",
+            "Wide-Lips"
+        ],
+        "outputLabel": "Full-lips"
+    },
+    {
+        "name": "Nose Length",
+        "outputName": "StatefulPartitionedCall_1:8",
+        "labels": [
+            "Average",
+            "Long",
+            "Short"
+        ],
+        "outputLabel": "Average"
+    },
+    {
+        "name": "Nose Width",
+        "outputName": "StatefulPartitionedCall_1:9",
+        "labels": [
+            "Broad",
+            "Medium",
+            "Narrow"
+        ],
+        "outputLabel": "Broad"
+    },
+    {
+        "name": "Shortness",
+        "outputName": "StatefulPartitionedCall_1:10",
+        "labels": [
+            "Long",
+            "Normal",
+            "Short"
+        ],
+        "outputLabel": "Long"
+    },
+    {
+        "name": "Thickness",
+        "outputName": "StatefulPartitionedCall_1:11",
+        "labels": [
+            "Dense",
+            "Medium",
+            "Sparse"
+        ],
+        "outputLabel": "Dense"
+    },
+    {
+        "name": "Thinness",
+        "outputName": "StatefulPartitionedCall_1:12",
+        "labels": [
+            "Normal",
+            "Thick",
+            "Thin"
+        ],
+        "outputLabel": "Normal"
+    },
+    {
+        "name": "Eyebrow Shape",
+        "outputName": "StatefulPartitionedCall_1:13",
+        "labels": [
+            "Curved",
+            "High-Arch",
+            "S-Shaped",
+            "Soft-Arch",
+            "Straight",
+            "Upward"
+        ],
+        "outputLabel": "Curved"
+    },
+    {
+        "name": "Face Shape",
+        "outputName": "StatefulPartitionedCall_1:14",
+        "labels": [
+            "Heart",
+            "Oval",
+            "Round",
+            "Square"
+        ],
+        "outputLabel": "Heart"
+    },
+    {
+        "name": "Personality Finder",
+        "outputName": "StatefulPartitionedCall_1:0",
+        "labels": [
+            "Extravert",
+            "Neurotic",
+            "Agreable",
+            "Conscientious",
+            "Open"
+        ],
+        "outputLabel": "Open",
+        "outputScore": 0.6137993335723877,
+        "outputData": {
+            "0": 0.5148470997810364,
+            "1": 0.3267529308795929,
+            "2": 0.29636889696121216,
+            "3": 0.6072118282318115,
+            "4": 0.6137993335723877
+        },
+        "outputIndex": 4
+    },
+    {
+        "name": "Average Eyebrow Color",
+        "outputName": "",
+        "labels": [],
+        "outputLabel": "",
+        "outputColor": "#351810"
+    },
+    {
+        "name": "Average Lip Color",
+        "outputName": "",
+        "labels": [],
+        "outputLabel": "",
+        "outputColor": "#2C0808"
+    },
+    {
+        "name": "Average Eye Color",
+        "outputName": "",
+        "labels": [],
+        "outputLabel": "",
+        "outputColor": "#010200"
+    },
+    {
+        "name": "Image Data",
+        "outputName": "",
+        "labels": [],
+        "outputLabel": "",
+        "outputColor": "",
+        "imageData": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABA"
+    }
+]

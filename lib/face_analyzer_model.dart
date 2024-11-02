@@ -7,17 +7,18 @@ class FaceAnalyzerModel {
   final Map<String, double>? outputData;
   final int? outputIndex;
   final String? outputColor;
+  final String? imageData;
 
-  FaceAnalyzerModel({
-    required this.name,
-    required this.outputName,
-    this.labels,
-    this.outputLabel,
-    this.outputScore,
-    this.outputData,
-    this.outputIndex,
-    this.outputColor,
-  });
+  FaceAnalyzerModel(
+      {required this.name,
+      required this.outputName,
+      this.labels,
+      this.outputLabel,
+      this.outputScore,
+      this.outputData,
+      this.outputIndex,
+      this.outputColor,
+      this.imageData});
 
   factory FaceAnalyzerModel.fromJson(Map<String, dynamic> json) {
     return FaceAnalyzerModel(
@@ -33,6 +34,7 @@ class FaceAnalyzerModel {
           : null,
       outputIndex: json['outputIndex'],
       outputColor: json['outputColor'],
+      imageData: json['imageData'],
     );
   }
 
@@ -46,6 +48,14 @@ class FaceAnalyzerModel {
       'outputData': outputData,
       'outputIndex': outputIndex,
       'outputColor': outputColor,
+      'imageData': imageData,
     };
+  }
+
+  // Method to create a list of FeatureModel objects from JSON list
+  static List<FaceAnalyzerModel> fromJsonList(List<dynamic> jsonList) {
+    return jsonList
+        .map((json) => FaceAnalyzerModel.fromJson(json as Map<String, dynamic>))
+        .toList();
   }
 }

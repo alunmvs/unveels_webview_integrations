@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:webview_integrations/webview_screen.dart';
+import 'package:webview_integrations/choose_screen.dart';
+import 'package:webview_integrations/face_analyzer_web.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WebViewScreen(),
+      home: const ChooseFeatures(),
     );
   }
 }
